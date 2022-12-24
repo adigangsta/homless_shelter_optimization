@@ -1,6 +1,4 @@
 # homless_shelter_optimization
-Linear Optimization of homeless population allocated to transitional/emergency housing in the city of Montreal
-
 Nations all around the world encounter various social, economic, political, and security
 issues that leave governments no choice but to step in and take action. In Montreal, homelessness
 has been a major concern over the past couple of years and continues to be so at
@@ -32,4 +30,5 @@ cost given the current capacity of homeless shelters while maximizing the number
 accommodated homeless population. Some of the costs to be considered are the living
 costs per person at each shelter (e.g., electricity, food, staffing costs) and fixed costs to run
 operations in the shelters. This project will also recommend shelter locations to account for
-the overflow demand.
+the overflow demand. Gurobi has been used to solve the linear optimisation problem in Python
+
